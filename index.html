@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfair Display</title>
+     <!-- -------------------------favicon---------------------------- -->
+     <link rel="icon" type="image/x-icon" href="./assets/img/f1.png">
+    <!-- ---------------------bootstrab------------------------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- -------------------------font-google----------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- -------------------------fontawesome----------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- -------------------------css----------------------- -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <section class="menubar-section position-absolute w-100">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img class="w-100" src="./assets/img/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pb-3">
+
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link  text-white" href="#">Gallery</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link  text-white" href="#">Services</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link  text-white" href="#">Videos</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false ">
+                      About
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">About Us</a></li>
+                      <li><a class="dropdown-item" href="#">FAQ's</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#" tabindex="-1">Go Green </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#" tabindex="-1" >Contact Us</a>
+                  </li>
+
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </section>
+
+
+<section class="banner-section ">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active position-relative">
+        <!-- <img src="./assets/img/b.png" class="d-block w-100" alt="..."> -->
+        <div class="content position-absolute top-50 start-50 translate-middle text-white w-100">
+          <h1>REALM OF DESIGN</h1>
+          <p>If you dream it, we can make it</p>
+        </div>
+      </div>
+
+      <div class="carousel-item position-relative one">
+        <!-- <img src="./assets/img/b1.png" class="d-block w-100" alt="..."> -->
+        <div class="content position-absolute top-50 start-50 translate-middle text-white w-100">
+          <h1>REALM OF DESIGN</h1>
+          <p>If you dream it, we can make it</p>
+        </div>
+      </div>
+
+      <div class="carousel-item position-relative two">
+        <!-- <img src="./assets/img/b2.png" class="d-block w-100" alt="..."> -->
+        <div class="content position-absolute top-50 start-50 translate-middle text-white w-100">
+          <h1>REALM OF DESIGN</h1>
+          <p>If you dream it, we can make it</p>
+        </div>
+      </div>
+
+      <div class="carousel-item position-relative three">
+        <!-- <img src="./assets/img/b3.png" class="d-block w-100" alt="..."> -->
+        <div class="content position-absolute top-50 start-50 translate-middle text-white w-100">
+          <h1>REALM OF DESIGN</h1>
+          <p>If you dream it, we can make it</p>
+        </div>
+      </div>
+      
+      <div class="carousel-item position-relative four">
+        <img src="./assets/img/b4.png" class="d-block w-100" alt="...">
+        <div class="content position-absolute top-50 start-50 translate-middle text-white w-100">
+          <h1>REALM OF DESIGN</h1>
+          <p>If you dream it, we can make it</p>
+        </div>
+      </div>
+
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</section>
+
+<!-- ------------------About-Us------------------------ -->
+
+<section class="About-us-section p-0 m-0">
+  <div class="container">
+    <div class="row">
+      <div class="About-title text-center">
+        <h2>About Us</h2>
+        <img class="py-3" src="./assets/img/about.png" alt="">
+      </div>
+      <div class="About-des text-center">
+        <p class="mx-auto">Realm of Design has been designing and creating exquisite architectural details for over 20 years. We bring forth the best in fireplace surround and mantel designs and other architectural concepts for commercial and residential projects in Las Vegas, Los Angeles and across the nation. Our specialty is in artistic, custom, hand-crafted  Fireplace Surrounds, Fireplace Mantels, Kitchen hoods, Counter tops, Columns, Faux Wood Beams, Balusters, Fountains and more. </p>
+
+        <p class="mx-auto">Our pieces can transform your space into a Million Dollar Room.  Our custom line of Moldings, trim, shutters  and pavers are sure to create a Front Entry that will let your home stand out the way others only dream about.  We also carry museum quality one-of-a-kind pieces that are considered works of art.  We truly can create or re-create anything.</p>
+      </div>
+      <div class="about-btn text-center py-5">
+        <a href="#" class=" btn btn-outline-primary px-4 py-2 text-uppercase">read more</a>
+      </div>
+      <div class="about-image">
+        <img class="w-100" src="./assets/img/about1.png" alt="">
+        <img class="w-100" src="./assets/img/about2.png" alt="">
+        <img class="w-100" src="./assets/img/about3.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ---------------------------realm----------------------------- -->
+
+<section class="realm-section">
+  <div class="row p-0 m-0">
+    <div class="col-6 border-top p-0">
+      <div class="realm-title w-100">
+        <h5>Findlay Toyota Presents</h5>
+        <h1>REALM OF CARS</h1>
+        <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <a href="#" class=" btn btn-outline-primary px-4 py-2 text-uppercase">read more</a>
+      </div>
+    </div>
+
+    <div class="col-6 p-0">
+      <div class="realm-image">
+        <img class="w-100" src="./assets/img/video.png" alt="">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- -------------------Gallery---------------------- -->
+
+<section class="gallery-section">
+  <div class="row p-0 m-0">
+    <div class="gallery-headline text-white text-center">
+      <h1>Gallery</h1>
+      <img src="./assets/img/gallery.png" alt="">
+    </div>
+  </div>
+</section>
+
+<!-- -------------------Gallery-image--------------------- -->
+
+<section class="gallery-image-section p-0 m-0">
+
+  <div class="row mx-0">
+    <div class="gellary-img p-0 m-0 ">
+      <img class="w-100" src="./assets/img/g1.png" alt="">
+      <img class="w-100" src="./assets/img/g2.png" alt="">
+      <img class="w-100" src="./assets/img/g3.png" alt="">
+      <img class="w-100" src="./assets/img/g4.png" alt="">
+      <img class="w-100" src="./assets/img/g5.png" alt="">
+      <img class="w-100" src="./assets/img/g6.png" alt="">
+      <img class="w-100" src="./assets/img/g7.png" alt="">
+      <img class="w-100" src="./assets/img/g8.png" alt="">
+      <img class="w-100" src="./assets/img/g9.png" alt="">
+      <img class="w-100" src="./assets/img/g10.png" alt="">
+      <img class="w-100" src="./assets/img/g11.png" alt="">
+      <img class="w-100" src="./assets/img/g12.png" alt="">
+    </div>
+  </div>
+</section>
+
+<!-- ------------------footer---------------------- -->
+
+<section class="footer-section">
+  <div class="container">
+    <div class="row">
+      <div class="footer-logo text-center">
+        <img src="./assets/img/footer1.png" alt="">
+      </div>
+    </div>
+    <div class="row secon-tow">
+      <div class="col-6">
+        <div class="social-item">
+          <ul class="d-flex text-white">
+            <li><i class="fa-brands fa-square-facebook"></i></li>
+            <li><i class="fa-brands fa-square-instagram"></i></li>
+            <li><i class="fa-brands fa-pinterest-p"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li> 
+            <h4>1188 Center Point Dr. Henderson, NV 89074</h4>                   
+        </ul>      
+        </div>
+      </div>
+      <div class="col-3">
+        <span><a class="text-white " href="tel:7025661188">tel:(702) 566-1188</a></span> <br> <br>
+      <span><a class="text-white " href="fax:7025669318">fax: (702) 566-9318</a></span>      
+      </div>
+      <div class="col-3 d-flex justify-content-end">
+        <img src="./assets/img/footer2.png" alt="">
+      </div>
+                  
+    </div>
+  </div>
+</section>
+
+<!-- ---------------------------lastbar--------------------- -->
+
+<section class="lastbar-section">
+  <div class="container">
+    <div class="row ">
+      <footer>
+        <p class="p-0 m-0 py-4 border-top">Web Development by Famid Hossain</p>
+      </footer>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ---------------------bootstrab------------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+
+</body>
+</html>
